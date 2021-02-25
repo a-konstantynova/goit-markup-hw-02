@@ -90,6 +90,7 @@ body {
   letter-spacing: 0.06em;
   background-color: #2196f3;
   color: #ffffff;
+  cursor: pointer;
 }
 
 .hero-button:hover,
@@ -182,6 +183,7 @@ body {
   text-align: center;
   letter-spacing: 0.03em;
   background-color: #f5f4fa;
+  cursor: pointer;
 }
 
 .button-portfolio:hover,
