@@ -2,6 +2,14 @@
   --main-font: "Roboto", sans-serif;
   --secondary-font: "Raleway", sans-serif;
   --accent-color: #212121;
+  --secondary-color: #2196f3;
+  --white-color: #fff;
+  --black-color: #000;
+  --dark-grey-color: #2f303a;
+  --light-grey-color: #757575;
+  --rgba-color: rgba(255, 255, 255, 0.6);
+  --light-blue-color: #188ce8;
+  --light-light-grey-color: #f5f4fa;
 }
 
 body {
@@ -26,7 +34,7 @@ body {
   font-size: 14px;
   line-height: 1.14;
   letter-spacing: 0.02em;
-  color: #2196f3;
+  color: var(--secondary-color);
 }
 
 /*==========HEADER==========*/
@@ -39,11 +47,11 @@ body {
 }
 
 .logo-light {
-  color: #000;
+  color: var(--black-color);
 }
 
 .logo-span {
-  color: #2196f3;
+  color: var(--secondary-color);
 }
 
 .link-header {
@@ -59,44 +67,49 @@ body {
   font-size: 14px;
   line-height: 1.14;
   letter-spacing: 0.02em;
-  color: #757575;
+  color: var(--light-grey-color);
 }
 
 .link-contacts:hover,
 .link-contacts:focus {
-  color: #2196f3;
+  color: var(--secondary-color);
 }
 /*==========HEADER==========*/
 
 /* =========HERO========== */
+.hero {
+  width: 600px;
+  height: 600px;
+  left: 0px;
+  top: 80px;
+  background: var(--dark-grey-color);
+}
+
 .hero-title {
   font-weight: 900;
   font-size: 44px;
   line-height: 1.36;
-  text-align: center;
   letter-spacing: 0.06em;
   text-transform: uppercase;
-  /* color: #FFFFFF; */
+  color: var(--white-color);
 }
 
 .hero-button {
-  font-family: var(--main-font);
   font-weight: bold;
   font-size: 16px;
   line-height: 1.87;
-  display: flex;
-  align-items: center;
-  text-align: center;
   letter-spacing: 0.06em;
-  background-color: #2196f3;
-  color: #ffffff;
+  background-color: var(--secondary-color);
+  color: var(--white-color);
   cursor: pointer;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+  border-radius: 4px;
 }
 
 .hero-button:hover,
 .hero-button:focus {
-  background-color: #188ce8;
-  color: #ffffff;
+  background-color: var(--light-blue-color);
+  color: var(--white-color);
 }
 
 /* =========END HERO========== */
@@ -115,7 +128,7 @@ body {
   font-size: 14px;
   line-height: 1.71;
   letter-spacing: 0.03em;
-  color: #757575;
+  color: var(--light-grey-color);
 }
 /* =========END SKILLS========== */
 
@@ -124,7 +137,6 @@ body {
   font-weight: bold;
   font-size: 36px;
   line-height: 1.17;
-  text-align: center;
   letter-spacing: 0.03em;
 }
 /* =========END WORK========== */
@@ -134,7 +146,6 @@ body {
   font-weight: bold;
   font-size: 36px;
   line-height: 1.17;
-  text-align: center;
   letter-spacing: 0.03em;
 }
 
@@ -142,36 +153,45 @@ body {
   font-weight: 500;
   font-size: 16px;
   line-height: 1.19;
-  text-align: center;
   letter-spacing: 0.03em;
 }
 
 .team-list-paragraph {
+  font-weight: normal;
   font-size: 16px;
   line-height: 1.19;
-  text-align: center;
   letter-spacing: 0.03em;
-  color: #757575;
+  color: var(--light-grey-color);
 }
 /* =========END TEAM========== */
 
 /* =========FOOTER========== */
+.footer {
+  width: 1600px;
+  height: 252px;
+  left: 0px;
+  top: 2097px;
+  background: var(--dark-grey-color);
+}
+
 .logo-dark {
-  /* color: #ffffff; */
+  color: var(--white-color);
 }
 
 .footer-adress {
+  font-weight: normal;
   font-size: 14px;
   line-height: 1.71;
   letter-spacing: 0.03em;
-  /* color: #FFFFFF; */
+  color: var(--white-color);
 }
 
 .footer-contacts {
+  font-weight: normal;
   font-size: 14px;
   line-height: 1.71;
   letter-spacing: 0.03em;
-  /* color: rgba(255, 255, 255, 0.6); */
+  color: var(--rgba-color);
 }
 /* =========END FOOTER========== */
 
@@ -179,17 +199,20 @@ body {
 .button-portfolio {
   font-weight: 500;
   font-size: 16px;
-  line-height: 2.17;
-  text-align: center;
+  line-height: 1.62;
   letter-spacing: 0.03em;
-  background-color: #f5f4fa;
+  background-color: var(--light-light-grey-color);
   cursor: pointer;
+  border-radius: 4px;
 }
 
 .button-portfolio:hover,
 .button-portfolio:focus {
-  color: #fff;
-  background-color: #2196f3;
+  color: var(--white-color);
+  background-color: var(--secondary-color);
+  box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08),
+    0px 2px 2px rgba(0, 0, 0, 0.12);
+  border-radius: 4px;
 }
 /* =========END BUTTON LIST========== */
 
@@ -203,9 +226,10 @@ body {
 }
 
 .portfolio-list-paragraph {
+  font-weight: normal;
   font-size: 16px;
   line-height: 1.87;
   letter-spacing: 0.03em;
-  color: #757575;
+  color: var(--light-grey-color);
 }
 /* =========END PORTFOLIO========== */
