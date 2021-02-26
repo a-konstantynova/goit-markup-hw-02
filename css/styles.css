@@ -62,6 +62,11 @@ body {
   color: var(--accent-color);
 }
 
+.link-header:hover,
+.link-header:focus {
+  color: var(--secondary-color);
+}
+
 .link-contacts {
   font-weight: 500;
   font-size: 14px;
