@@ -40,7 +40,7 @@ body {
 /*==========HEADER==========*/
 .logo {
   font-family: var(--secondary-font);
-  font-weight: bold;
+  font-weight: 700;
   font-size: 26px;
   line-height: 1.19;
   letter-spacing: 0.03em;
@@ -100,7 +100,7 @@ body {
 }
 
 .hero-button {
-  font-weight: bold;
+  font-weight: 700;
   font-size: 16px;
   line-height: 1.87;
   letter-spacing: 0.06em;
@@ -121,7 +121,7 @@ body {
 
 /* =========SKILLS========== */
 .skills-title {
-  font-weight: bold;
+  font-weight: 700;
   font-size: 14px;
   line-height: 1.14;
   letter-spacing: 0.03em;
@@ -129,7 +129,7 @@ body {
 }
 
 .skills-list-paragraph {
-  font-weight: normal;
+  font-weight: 400;
   font-size: 14px;
   line-height: 1.71;
   letter-spacing: 0.03em;
@@ -139,7 +139,7 @@ body {
 
 /* =========WORK========== */
 .work-title {
-  font-weight: bold;
+  font-weight: 700;
   font-size: 36px;
   line-height: 1.17;
   letter-spacing: 0.03em;
@@ -148,7 +148,7 @@ body {
 
 /* =========END TEAM========== */
 .team-title {
-  font-weight: bold;
+  font-weight: 700;
   font-size: 36px;
   line-height: 1.17;
   letter-spacing: 0.03em;
@@ -162,7 +162,7 @@ body {
 }
 
 .team-list-paragraph {
-  font-weight: normal;
+  font-weight: 400;
   font-size: 16px;
   line-height: 1.19;
   letter-spacing: 0.03em;
@@ -192,7 +192,7 @@ body {
 }
 
 .footer-contacts {
-  font-weight: normal;
+  font-weight: 400;
   font-size: 14px;
   line-height: 1.71;
   letter-spacing: 0.03em;
@@ -223,7 +223,7 @@ body {
 
 /* =========PORTFOLIO========== */
 .portfolio-list-title {
-  font-weight: bold;
+  font-weight: 700;
   font-size: 18px;
   line-height: 2;
   letter-spacing: 0.06em;
@@ -231,7 +231,7 @@ body {
 }
 
 .portfolio-list-paragraph {
-  font-weight: normal;
+  font-weight: 400;
   font-size: 16px;
   line-height: 1.87;
   letter-spacing: 0.03em;
